@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container-fluid{
+	font-family: 'Boogaloo', cursive;
+	background-image: url(https://images.pexels.com/photos/900106/pexels-photo-900106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.title{
+	color: #FFF8DC;
+	padding-top: 20%;
+}
+
+
+#sidenav{
+	z-index: 1;
+	position: absolute;
+	margin: 0;
+	background-color: rgba(47,79,79,.9);
+}
+
+.t1{
+	font-size: 55px;
+}
+
+#textarea{
+	padding: 50px;
+}
+
+.btn{
+	margin: 10px;
+	font-size: 20px;
+}
+
+#top,#headnav{
+	color: #FFFAFA;
+	font-size: 27px;
+}
+
+.links{
+	font-size: 20px;
+	color: #FFFAFA;
+}
+
+.copy{
+	color: white;
+}
+
+.progress{
+	width: 50%;
+	margin: 0 auto;
+}
