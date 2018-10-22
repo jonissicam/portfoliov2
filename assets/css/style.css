@@ -18,42 +18,29 @@
 	padding-top: 20%;
 }
 
-
-#sidenav{
-	z-index: 1;
-	position: absolute;
-	margin: 0;
-	background-color: rgba(47,79,79,.9);
+/* Mobile Styles*/
+@media only screen and (max-width: 400px)
+{
+	#sidenav{
+		position: absolute;
+	}
 }
 
-.t1{
-	font-size: 55px;
+
+/* Tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{
+	
 }
 
-#textarea{
-	padding: 50px;
+/*Desktop*/
+@media only screen and (min-width: 961px) and (max-width: 1440px)
+{
+
 }
 
-.btn{
-	margin: 10px;
-	font-size: 20px;
-}
-
-#top,#headnav{
-	color: #FFFAFA;
-	font-size: 27px;
-}
-
-.links{
-	font-size: 20px;
-	color: #FFFAFA;
-}
-
-.copy{
-	color: white;
-}
-
-.progress{
-	width: 50%;
-	margin: 0 auto;
+/*4k*/
+@media only screen and (min-width: 1441px)
+{
+	
 }
