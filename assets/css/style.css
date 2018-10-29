@@ -13,34 +13,144 @@
 	height: 100vh;
 }
 
-.title{
-	color: #FFF8DC;
-	padding-top: 20%;
+.text-color{
+	color: #FFF8DC;/*white*/
 }
 
+#sidenav{
+	background-color: rgba(0,0,0,.5);
+}
+
+.link{
+	text-decoration: none;
+	color: #FFF8DC;/*white*/
+}
+
+.progress{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.progress-bar{
+	text-align: center;
+	width: 90%;
+}
+
+.tabs:hover{
+	text-decoration-line: line-through;
+}
+
+
 /* Mobile Styles*/
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 425px)
 {
-	#sidenav{
-		position: absolute;
+	#img-about{
+		display: inline-block;
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
 	}
+	#header{
+		font-size: 90px;
+	}
+
+	#top{
+		position: relative;
+	}
+
+	#sidenav{
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	
 }
 
 
 /* Tablet Styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px)
+@media only screen and (min-width: 426px) and (max-width: 960px)
 {
-	
+	#img-about{
+		display: inline-block;
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+	}
+	#header{
+		font-size: 90px;
+	}
+
+	#top{
+		position: relative;
+	}
+
+	#sidenav{
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
 }
 
 /*Desktop*/
 @media only screen and (min-width: 961px) and (max-width: 1440px)
 {
+	#img-about{
+		display: inline-block;
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+		background-size: contain;
+	}
+	#header{
+		margin-top: 300px;
+		font-size: 120px;
+	}
+
+	#top{
+		position: relative;
+	}
+
+	#sidenav{
+		width: 40%;
+		position: absolute;
+		top: 20%;
+		left: 80%;
+		transform: translate(-50%,-50%);
+	}
+	#cap1{
+		width: 70%;
+		height: 50vh;
+	}
+
+	#cap1{
+		border-radius: 10px;
+		filter: blur(5px);
+	}
+
+	#cap1:hover{
+		filter: blur(1px);
+	}
+
+	#cap1{
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+	}
+	#cap1:hover {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.project{
+		width: 80%;
+		height: 70vh;
+	}
 
 }
 
-/*4k*/
-@media only screen and (min-width: 1441px)
-{
-	
-}
+
